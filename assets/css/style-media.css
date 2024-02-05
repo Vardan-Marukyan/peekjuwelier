@@ -1,0 +1,963 @@
+@media only screen and (max-width: 1720px) {
+    .greetings {
+        padding: 50px 300px;
+    }
+
+    .our-promises {
+        width: 1400px;
+    }
+
+    .our-promises img{
+        width: 500px;
+    }
+
+    .our-promises-info__title {
+        font-size: 26px;
+    }
+
+    .our-promises-info__item-title {
+        font-size: 21px;
+    }
+
+    .our-promises-info__item {
+        font-size: 19px;
+    }
+
+    .our-promises-info__sub-text {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .content__img img {
+        width: 700px;
+    }
+
+    .contents {
+        width: 1000px;
+    }
+}
+
+@media only screen and (max-width: 1510px) {
+    .greetings {
+        padding: 50px 250px;
+    }
+
+    .our-promises {
+        width: 1200px;
+    }
+
+    .our-promises img{
+        width: 450px;
+    }
+
+    .our-promises-info__title {
+        font-size: 24px;
+    }
+
+    .our-promises-info__item-title {
+        font-size: 19px;
+    }
+
+    .our-promises-info__item {
+        font-size: 17px;
+    }
+
+    .our-promises-info__sub-text {
+        font-size: 17px;
+    }
+
+    .exclusive-jewelry-row__img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 1360px) {
+    .container__cards{
+        grid-template-columns: repeat(auto-fill, 540px);
+    }
+
+    .card-section-content__title {
+        font-size: 14px;
+    }
+
+    .card-section-content__text {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .card-section-content__image {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 1310px) {
+    .greetings {
+        padding: 50px 200px;
+        font-size: 24px;
+    }
+
+    .about-us {
+        width: 1200px;
+        justify-content: space-around;
+    }
+
+    .card {
+        width: 300px;
+    }
+
+    .our-promises {
+        width: 1000px;
+    }
+
+    .our-promises img{
+        width: 400px;
+    }
+
+    .our-promises-info__title {
+        font-size: 22px;
+    }
+
+    .our-promises-info__item-title {
+        font-size: 18px;
+    }
+
+    .our-promises-info__item {
+        font-size: 16px;
+    }
+
+    .our-promises-info__sub-text {
+        font-size: 16px;
+    }
+
+    .other-style-contacts {
+        padding: 150px 0;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .content__img img {
+        width: 650px;
+    }
+
+    .contents {
+        width: 900px;
+    }
+
+    .contents__title {
+        font-size: 27px;
+    }
+
+    .content__title {
+        font-size: 20px;
+    }
+
+    .content__text {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .container__cards{
+        grid-template-columns: repeat(auto-fill, 290px);
+    }
+
+    .card-section{
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .card-section-content__image{
+        width: auto;
+        height: 290px;
+    }
+
+    .card-section-content{
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 1130px) {
+    .about-us {
+        width: 1000px;
+        justify-content: space-around;
+    }
+
+    .card {
+        width: 250px;
+    }
+
+    .card__information{
+        width: 250px;
+    }
+
+    .exclusive-jewelry-row__img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .exclusive-jewelry-row__title {
+        font-size: 19px;
+    }
+
+    .exclusive-jewelry-row__text {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .our-promises {
+        width: 900px;
+    }
+
+    .our-promises img{
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .content__img img {
+        width: 550px;
+    }
+
+    .contents {
+        width: 750px;
+    }
+
+    .slider-image__item {
+        width: 550px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .exclusive-jewelry-row__img {
+        width: 220px;
+        height: 220px;
+    }
+    
+    .greetings {
+        padding: 50px 150px;
+    }
+
+    .our-promises {
+        width: 800px;
+    }
+
+    .our-promises img{
+        width: 350px;
+    }
+
+    .our-promises-info__title {
+        font-size: 20px;
+    }
+
+    .our-promises-info__item-title {
+        font-size: 18px;
+    }
+
+    .our-promises-info__item {
+        font-size: 16px;
+    }
+
+    .our-promises-info__sub-text {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .contact-info__text {
+        width: 700px;
+    }
+}
+
+@media only screen and (max-width: 867px) {
+    ::-webkit-scrollbar{
+        display: none;
+    }
+
+    .main {
+        padding-top: 100px;
+    }
+
+    .menu__items li a{
+        color: #000;
+    }
+    .nav-bar{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 50px;
+    }
+    .menu__icon{
+        z-index: 5;
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 18px;
+        cursor: pointer;
+    }
+    .menu__icon span,
+    .menu__icon::before,
+    .menu__icon::after{
+        left: 0;
+        position: absolute;
+        height: 10%;
+        width: 100%;
+        transition: all 0.3s  ease 0s;
+        background-color: #464646;
+    }
+
+    .menu__icon::before,
+    .menu__icon::after{
+        content: "";
+    }
+
+    .menu__icon::before{
+        top: 0;
+    }
+
+    .menu__icon::after{
+        bottom: 0;
+    }
+
+    .menu__icon span{
+        top: 50%;
+        transform: scale(1) translate(0px, -50%);
+    }
+
+    .menu__items{
+        display: block;
+        position: fixed;
+        top: 0;
+        bottom: 0px;
+        width: 100%;
+        height: 100%;
+        left: -100%;
+        right: 0;
+        background: #fff;
+        padding: 100px 0 30px 0;
+        overflow: auto;
+    }
+
+    .menu__items._active{
+        left: 0;
+    }
+
+    .menu__icon._active span{
+        transform: scale(0) translate(0px, -50%);
+    }
+
+    .menu__icon._active::after{
+        bottom: 10px;
+        transform: rotate(-45deg) translate(0px, -50%);
+    }
+
+    .menu__icon._active::before{
+        top: 5px;
+        transform: rotate(45deg) translate(0px, 50%);
+    }
+
+    .menu__items::before{
+        content: "";
+        position: fixed;
+        width: 100%;
+        height: 100px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        background: #fff;
+        box-shadow: 0px 8px 11px -10px rgba(0, 0, 0, 0.4);
+        z-index: 2;
+    }
+
+    .menu__items._active::before{
+        border-bottom: 1px solid #d7d1d1;
+    }
+
+    .header{
+        justify-content: space-around;
+        flex-direction: row;
+        padding: 0;
+    }
+
+    .logo__image{
+        width: 172px;
+        margin: 0;
+    }
+
+    .menu__items li{
+        text-align: start;
+        margin: 20px 70px;
+    }
+
+    .menu__items li a{
+        width: 88%;
+        padding: 10px;
+        border-bottom: 1px solid #d7d1d1;
+        display: flex;
+        color: #464646;
+    }
+
+    .menu__items li a:hover{
+        color: #5f5f5f;
+    }
+
+
+    .body._lock{
+        overflow: hidden;
+    }
+
+    .image-header {
+        height: auto;
+    }
+
+    .greetings {
+        padding: 50px 100px;
+        font-size: 21px;
+    }
+
+    .about-us {
+        width: 600px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 450px;
+        height: auto;
+        flex-direction: row;
+        align-items: start;
+        margin-top: 60px;
+    }
+
+    .card__img {
+        width: 250px;
+        height: 300px;
+    }
+
+    .card__information {
+        width: 250px;
+        height: 140px;
+        margin-left: 30px;
+        margin-top: 0;
+        border: none;
+    }
+
+    .card__title {
+        font-size: 15px;
+    }
+
+    .card__sub-title {
+        margin-top: 20px;
+        font-size: 13px;
+    }
+
+    .exclusive-jewelry{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .exclusive-jewelry-row__img {
+        width: 400px;
+        height: auto;
+    }
+
+    .exclusive-jewelry-row__title {
+        font-size: 23px;
+    }
+
+    .exclusive-jewelry-row__text {
+        margin-top: 40px;
+        font-size: 18px;
+    }
+
+    .our-promises {
+        width: 500px;
+        flex-direction: column-reverse;
+    }
+
+    .our-promises-info__title {
+        font-size: 20px;
+    }
+
+    .our-promises-info__item-title {
+        font-size: 18px;
+    }
+
+    .our-promises-info__item {
+        font-size: 16px;
+    }
+
+    .our-promises-info__sub-text {
+        font-size: 16px;
+    }
+
+    .our-promises img {
+        margin-top: 60px;
+    }
+    
+    .our-promises-info{
+        margin: 0;
+    }
+
+    .other-style-contacts {
+        padding: 100px 0 120px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .contents__title {
+        font-size: 24px;
+    }
+
+    .content__title {
+        font-size: 18px;
+    }
+
+    .content__text {
+        font-size: 15px;
+    }
+
+    .content__img img {
+        width: 450px;
+    }
+
+    .contents {
+        width: 650px;
+    }
+
+    .footer__title {
+        font-size: 17px;
+    }
+
+    .footer__item {
+        font-size: 13px;
+    }
+
+    .opening {
+        width: 150px;
+        font-size: 14px;
+    }
+
+    .slider-controllers__arrow-icon {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .slider-image__item {
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .container__cards {
+        column-gap: 30px;
+    }
+
+    .contact-info__text {
+        width: 600px;
+    }
+
+    .contact__title {
+        font-size: 31px;
+    }
+
+    .contact-items__info{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .card-section-content__image{
+        height: 240px;
+    }
+
+    .card-section-content {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .content__img img {
+        width: 550px;
+    }
+
+    .contents {
+        width: 550px;
+    }
+
+    .icon-right{
+        margin-left: 10px;
+    }
+
+    .footer__title {
+        font-size: 16px;
+    }
+
+    .footer__item {
+        font-size: 11px;
+    }
+
+    .opening {
+        width: 150px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .contact-info__text {
+        width: 500px;
+        font-size: 15px;
+    }
+
+    .contact__title {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .container__cards{
+        grid-template-columns: repeat(auto-fill, 190px);
+    }
+
+    .content__img img {
+        width: 450px;
+    }
+
+    .contents {
+        width: 450px;
+    }
+
+    .contents__title {
+        font-size: 20px;
+    }
+
+    .content__title {
+        font-size: 17px;
+    }
+
+    .content__text {
+        font-size: 14px;
+    }
+
+    .slider-image__item {
+        width: 400px;
+    }
+
+    .card-section-content__image {
+        height: 200px;
+    }
+
+    .card-section-content {
+        width: 150px;
+    }
+
+    .card-section-content__text {
+        font-size: 10px;
+    }
+
+    .card-section-content__title {
+        font-size: 12px;
+    }
+
+    .contact-info__text {
+        width: 400px;
+    }
+
+    .contact__title {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .greetings {
+        font-size: 19px;
+    }
+
+    .our-promises {
+        width: 400px;
+    }
+
+    .our-promises img {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .greetings {
+        padding: 50px 70px;
+        font-size: 21px;
+    }
+
+    .content__img img {
+        width: 350px;
+    }
+
+    .contents {
+        width: 350px;
+    }
+
+    .card {
+        width: auto;
+        flex-direction: column;
+    }
+
+    .card__information{
+        margin: 0;
+    }
+
+    .circles__item {
+        padding: 3px;
+    }
+
+    .slider-image__item {
+        width: 300px;
+    }
+
+    .slider-controllers__arrow-icon {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .menu__items li{
+        margin: 20px 40px;
+    }
+
+    .menu__items li a{
+        width: 85%;
+    }
+
+    .footer__menu {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .footer__items {
+        margin-top: 40px;
+    }
+
+    .footer {
+        padding: 40px 20px 40px 40px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .greetings {
+        padding: 50px 50px;
+        font-size: 19px;
+    }
+
+    .exclusive-jewelry-row__img {
+        width: 300px;
+    }
+
+    .our-promises {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .content__img img {
+        width: 250px;
+    }
+
+    .contents {
+        width: 250px;
+    }
+
+    .slider-image__item {
+        width: 260px;
+    }
+
+    .slider-controllers__arrow-icon {
+        font-size: 15px;
+    }
+
+    .contact-info__text {
+        width: 300px;
+    }
+
+    .contact-items{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .contact-item{
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .card-row {
+        padding: 0;
+    }
+
+    .main {
+        padding-top: 85px;
+    }
+
+    .logo__image{
+        width: 150px;
+        margin: 0;
+    }
+
+    .menu__items::before{
+        height: 85px;
+    }
+
+    .nav-bar{
+        padding: 0 20px;
+    }
+
+    .image-header {
+        display: none;
+    }
+
+    .greetings {
+        padding: 50px 30px;
+        font-size: 18px;
+    }
+
+    .card__information {
+        width: 200px;
+    }
+
+    .card__img {
+        width: 200px;
+        height: 250px;
+    }
+
+    .exclusive-jewelry-row__img {
+        width: 250px;
+    }
+
+    .our-promises {
+        width: 300px;
+    }
+
+    .our-promises {
+        width: 240px;
+    }
+
+    .our-promises-info__title {
+        font-size: 19px;
+    }
+
+    .our-promises-info__item-title {
+        font-size: 17px;
+    }
+
+    .our-promises-info__item {
+        font-size: 15px;
+    }
+
+    .our-promises img {
+        width: 240px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .content__img img {
+        width: 220px;
+    }
+
+    .contents {
+        width: 220px;
+    }
+
+    .slider-controllers__arrow-icon {
+        padding: 8px;
+    }
+
+    .icon-right{
+        margin-left: 5px;
+    }
+
+    .contact__title {
+        font-size: 20px;
+    }
+
+    .contact-info__text {
+        width: 230px;
+    }
+    .other-style-contacts {
+        padding: 50px 0 100px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .main {
+        padding-top: 70px;
+    }
+
+    .logo__image{
+        width: 120px;
+        margin: 0;
+    }
+
+    .menu__items::before{
+        height: 70px;
+    }
+}
+
+@media only screen and (max-width: 310px) {
+    .card{
+        width: 200px;
+    }
+
+    .card__img {
+        width: 200px;
+        height: 250px;
+    }
+    
+    .card__information{
+        width: auto;
+        height: auto;
+    }
+
+    .exclusive-jewelry-row__img {
+        width: 250px;
+    }
+
+    .our-promises {
+        width: 300px;
+    }
+
+    .our-promises {
+        width: 240px;
+    }
+
+    .our-promises-info__title {
+        font-size: 19px;
+    }
+
+    .our-promises-info__item-title {
+        font-size: 17px;
+    }
+
+    .our-promises-info__item {
+        font-size: 15px;
+    }
+
+    .our-promises img {
+        width: 240px;
+    }
+
+    .exclusive-jewelry-row__img {
+        width: 220px;
+    }
+
+    .exclusive-jewelry-row__title {
+        font-size: 21px;
+    }
+
+    .exclusive-jewelry-row__text {
+        font-size: 15px;
+    }
+}

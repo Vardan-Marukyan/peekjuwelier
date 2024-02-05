@@ -1,0 +1,592 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    height: 100%;
+}
+
+
+.main {
+    padding-top: 165px;
+}
+
+.warper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header{
+    background: #161616 ;
+}
+
+.external-indentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #212226;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #35373d;
+}
+
+
+.privacy{
+    display: flex;
+    height: 50px;
+    background: #243d58 ;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jost';
+    color: #dfdfdf;
+    padding: 0 10px;
+}
+
+.privacy a{
+    color: #a8a8a8;
+}
+
+.header{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+    transition: all 0.3s  ease 0s;
+    padding: 20px 0;
+}
+
+.logo{
+    z-index: 99999;
+}
+.menu__items li{
+    list-style: none;
+}
+
+
+.menu__items li:not(:last-child) {
+    margin-right: 15px;
+}
+
+.menu__items li a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.menu__items li a:hover{
+    color: #ebebeb;
+}
+
+.menu__items{
+    display: flex;
+    font-family: 'Jost';
+    font-size: 15px;
+}
+
+.logo__image{
+    width: 170px;
+}
+
+.logo-scroll{
+    display: none;
+}
+
+.footer{
+    display: flex; 
+    justify-content: space-evenly;
+    padding: 40px 20px;
+    background-color: #161616;
+}
+
+.footer__items{
+    font-family: 'Jost';
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer__item{
+    list-style: none;
+    margin-bottom: 3px;
+}
+
+.opening__items{
+    list-style: none;
+    margin-bottom: 3px;
+}
+
+.footer__title{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.opening{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.footer__menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 50px 0 20px 0;
+}
+
+.footer__logo{
+    width: 150px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-all-style{
+    background: #161616 ;
+}
+
+.error__404{
+    font-size: 53px;
+    font-family: 'Jost';
+}
+
+.error{
+    padding: 120px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error__text{
+    margin-top: 20px;
+    font-size: 27px;
+    font-family: 'Jost';
+    text-align: center;
+}
+
+.error__a-return-button{
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.error__return-button{
+    font-size: 18px;
+    font-family: 'Jost';
+    padding: 20px;
+    border: 1px solid;
+    color: #000;
+}
+
+.error__return-button:hover{
+    border: 1px solid #fff;
+    background: #000;
+    color: #fff;
+    transition: .3s;
+}
+
+.icon-facebook{
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.page-numbers{
+    font-size: 16px;
+    font-family: 'Jost';
+    border: 1px solid;
+    padding: 12px 20px;
+    margin: 60px 5px;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.page-numbers:hover{
+    color: #fff;
+    background: #000;
+    transition: .8s;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+}
+
+.greetings{
+    display: flex;
+    justify-content: center;
+    padding: 50px 350px;
+    font-size: 27px;
+    font-family: 'Jost';
+    border-bottom: 1px solid;
+}
+
+.card {
+    width: 250px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us-width-box{
+    display: flex;
+    padding: 80px 0;
+    justify-content: center;
+}
+
+.about-us{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.exclusive-jewelry-row__img{
+    width: 400px;
+    height: 400px;
+    margin: 20px 20px 10px;
+}
+
+.exclusive-jewelry-row{
+    display: flex;
+    justify-content: center;
+}
+
+.exclusive-jewelry{
+    padding: 60px 0;
+    border-top: 1px solid;
+}
+
+
+.exclusive-jewelry-row__word{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.exclusive-jewelry-row__title{
+    font-family: 'Jost';
+    font-size: 27px;
+}
+
+.exclusive-jewelry-row__text{
+    margin-top: 40px;
+    font-family: 'Jost';
+    font-size: 16px;
+}
+
+.exclusive-jewelry-mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid;
+    padding: 60px 0;
+}
+
+.card__information{
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.card__title{
+    font-family: 'Jost';
+    font-size: 15px;
+}
+
+.card__sub-title{
+    margin-top: 20px;
+    font-family: 'Jost';
+    font-size: 13px;
+}
+
+.card__img{
+    width: 250px;
+    height: 300px;
+}
+
+.our-promises-width-box{
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+    border-top: 1px solid;
+}
+
+.our-promises{
+    width: 1600px;
+    display: flex;
+}
+
+.our-promises-info{
+    margin: 0 40px;
+}
+
+.our-promises img{
+    width: 600px;
+}
+
+.our-promises-info__item{
+    font-family: 'Jost';
+    font-size: 21px;
+    margin: 40px 0;
+}
+
+.our-promises-info__item-title{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.our-promises-info__title{
+    font-family: 'Jost';
+    font-size: 32px;
+}
+
+.our-promises-info__sub-text{
+    font-family: 'Jost';
+    font-size: 20px;
+    color: #313131;
+}
+
+.contents{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contents__title{
+    font-family: 'Jost';
+    font-size: 30px;
+}
+
+.content__title{
+    font-family: 'Jost';
+    font-size: 22px;
+}   
+
+.content__text{
+    font-family: 'Jost';
+    font-size: 18px;
+}
+
+.content__img{
+    margin-top: 60px;
+}
+
+.content__img img{
+    width: 800px;
+}
+
+.content__item{
+    margin-top: 20px;
+}
+
+.content__text li{
+    list-style: none;
+}
+
+.contact__title{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Jost';
+}
+
+.contact-items{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Jost';
+    margin-top: 30px;
+}
+
+.contact-items__icon{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.other-style-contacts{
+    padding: 300px 0;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.contact-info__text{
+    width: 800px;
+    text-align: center;
+    font-family: 'Jost';
+}
+
+.card__image{
+    width: 250px;
+}
+
+.card-section{
+    box-shadow: 0px 0px 11px rgba(0,0,0, 0.4);
+}
+
+.card-section-content__image{
+    width: 250px;
+}
+
+.card-section{
+    display: flex;
+    box-shadow: 0px 0px 11px rgba(0,0,0, 0.4);
+}
+
+.card-section-content{
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-section-content__title{
+    font-family: 'Jost';
+    font-size: 16px;
+}
+
+.card-section-content__text{
+    font-family: 'Jost';
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.main-button{
+    margin-top: 20px;
+    display: flex;
+}
+
+.main-button__btn{
+    font-family: 'Jost';
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+}
+
+.main-button__btn:hover{
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #fff;
+    transition: 0.5s;
+}
+
+.footer__btn{
+    background-color: #0f0f0f;
+    border: 1px solid #3f3f3f;
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer__btn:hover{
+    border: 1px solid #1d1d1d;
+    color: #e0e0e0;
+}
+
+.card-row{
+    width: 100%;
+    max-width: 1500px;
+    padding: 60px 15px;
+    margin: 0 auto;
+}
+
+.container__cards{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, 590px);
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+    column-gap: 100px;
+    row-gap: 50px;
+}
+
+.slider-image__item{
+    width: 700px;
+}
+
+
+.icon-right{
+    margin-left: 20px;
+}
+
+.slider{
+    margin-top: 60px;
+}
+
+.slider-controllers__arrow{
+    display: flex;
+}
+
+.slider-image{
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-controllers__arrow-icon{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.slider-controllers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.slider-controllers__circles{
+    display: flex;
+    align-items: center;
+}
+
+.circles__item{
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 100px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+
+
